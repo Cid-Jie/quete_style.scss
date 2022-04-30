@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Enchanted Land";
+    src: url("../police/Enchanted Land.otf");
+  }
+
+  :root{
+    --bs-mainColor: #ec8633;
+    --bs-textColor: white;
+    --bs-textTitle: black;
+}
+
+  .text_precious .ring {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 5px #e26634 solid;
+    background-color: none;
+    box-shadow: inset 5px 5px 5px #c74d1c, 5px 5px 5px 0 #c74d1c;
+  }
+  
+  .text_the_one .ringOne {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 10px #fad220 solid;
+    background-color: none;
+    box-shadow: inset 10px 10px 10px #e2b905, 10px 10px 10px 0 #e2b905;
+  }
+  
+  .text_list_ring .list_ring {
+    display: flex;
+    align-items: center;
+  }
+  .text_list_ring .list_ring .ring1 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px #242121 solid;
+    background-color: none;
+    box-shadow: inset 2px 2px 2px #090909, 2px 2px 2px 0 #090909;
+    margin-left: -5px;
+  }
+  .text_list_ring .list_ring .ring2 {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 4px #242121 solid;
+    background-color: none;
+    box-shadow: inset 4px 4px 4px #090909, 4px 4px 4px 0 #090909;
+    margin-left: -10px;
+  }
+  .text_list_ring .list_ring .ring3 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 6px #242121 solid;
+    background-color: none;
+    box-shadow: inset 6px 6px 6px #090909, 6px 6px 6px 0 #090909;
+    margin-left: -15px;
+  }
+  .text_list_ring .list_ring .ring4 {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 8px #242121 solid;
+    background-color: none;
+    box-shadow: inset 8px 8px 8px #090909, 8px 8px 8px 0 #090909;
+    margin-left: -20px;
+  }
+  .text_list_ring .list_ring .ring5 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 10px #242121 solid;
+    background-color: none;
+    box-shadow: inset 10px 10px 10px #090909, 10px 10px 10px 0 #090909;
+    margin-left: -25px;
+  }
+  .text_list_ring .list_ring .ring6 {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 12px #242121 solid;
+    background-color: none;
+    box-shadow: inset 12px 12px 12px #090909, 12px 12px 12px 0 #090909;
+    margin-left: -30px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Enchanted Land';
+  }
+
+  header{
+    font-family: 'Enchanted Land';
+    background-color: var(--bs-mainColor);
+    width: 100%;
+}
+  
+  h1 {
+    margin: 20px;
+    font-size: 2rem;
+    font-family: 'Enchanted Land';
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  footer{
+    display: flex;
+    background-color: var(--bs-mainColor);
+    width: 100%;
+  }

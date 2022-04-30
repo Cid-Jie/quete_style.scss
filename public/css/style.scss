@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Enchanted Land';
+    src: url("../police/Enchanted Land.otf");
+}
+
+
+@mixin ring($size, $color){
+    border-radius: 50%;
+    width: $size;
+    height: $size;
+    border: $size/10 $color solid;
+    background-color: none;
+    box-shadow: inset $size/10 $size/10 $size/10 darken($color, 10%),
+    $size/10 $size/10 $size/10 0 darken($color, 10%);
+}
+
+.text_precious .ringOne {
+    @include ring(50px, #e26634);
+}
+
+.ringOne .ring {
+    @include ring(100px, #fad220);
+}
+
+.text_list_ring {
+    .list_ring {
+        display: flex;
+        align-items: center;
+        @for $i from 1 through 6 {
+            .ring#{$i} {
+                @include ring(20px*$i, #242121);
+                margin-left: -5px*$i;
+            }
+        }
+    }
+}
+
+.navbar{
+    background-color: $mainColor;
+    color: $textColor;
+    font-family: 'Enchanted Land';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 2rem;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
